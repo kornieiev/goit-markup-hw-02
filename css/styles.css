@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+  font-family: 'roboto', sans-serif;
+}
+
+.header-nav {
+  font-family: 'relaway', sans-serif;
+}
+
+/* ul {list-style: none;} - забирає крапочку перед елементами списку  */
+ul {
+  list-style: none;
+}
+.team {
+  background-color: #f5f4fa;
+}
