@@ -1,8 +1,9 @@
 body {
-  background-color: #fff;
-  font-family: 'roboto', sans-serif;
+  background-color: grey;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-
+/*---------------Хедер---------------*/
 .header-nav {
   font-family: 'relaway', sans-serif;
 }
