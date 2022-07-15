@@ -13,39 +13,40 @@
       rel="stylesheet"
     />
     <title>WebStudio</title>
+    <style>
+    a:visited {
+    color: #2196F3;}
+    a:active {
+    color: #f00;} </style>
   </head>
   <body>
-    <!--Хедер-->
+    <! ---------------ХЕДЕР--------------- !>
     <header class="header">
       <nav class="header-nav">
-        <a class="header-a" href="./index.html">
-          <span class="logo" lang="en"
-            ><span lang="en">Web </span><span lang="en">Studio</span></span
-          ></a
+        <a class="header-logo" href="./index.html">
+          <span lang="en">Web</span><span class="header-logo-studio" lang="en">Studio</span></a
         >
-        <ul class="header-list list">
-          <li class="header-item link"><a href="#" class="header-link link">Студия</a></li>
+        <ul class="header-list list current">
+          <li class="header-item link"><a href="#" class="header-link link current">Студия</a></li>
           <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            <a href="./portfolio.html" class="header-link link current">Портфолио</a>
           </li>
           <li class="header-item"><a href="#" class="header-link link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts list">
         <li>
-          <a href="mailto:info@devstudio.com" class="header-contact link"
-            >info@devstudio.com class="header-link link"</a
-          >
+          <a href="mailto:info@devstudio.com" class="header-contact link">info@devstudio.com</a>
         </li>
         <li><a href="tel:+380961111111" class="header-contact link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!--Главный Контент-->
     <main class="main">
-      <!--Секция Герой-->
+      <!-- ---------------ГЕРОЙ--------------- -->
       <section class="hero">
-        <h1 class="hero-title" id="studio">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="hero-title" id="studio">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero-btn">Заказать услугу</button>
       </section>
       <!--Особенности-->
       <section class="features">
@@ -161,8 +162,8 @@
     </main>
     <!--Футер-->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html">
-        <span class="logo" lang="en" class="link">WebStudio</span></a
+      <a class="footer-logo link" href="./index.html">
+        <span lang="en">Web<span /><span class="footer-logo-studio">Studio</span></a
       >
       <address>
         <ul class="footer-list list" id="contacts">
@@ -170,16 +171,16 @@
             <a
               href="https://goo.gl/maps/U5zvmCGQdRFb18JV9"
               target="_blank"
-              class="link"
+              class="footer-list-address link"
               rel="noopener noreferer nofollow"
               >г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
           <li class="footer-list-item link">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="footer-list-emph link">info@devstudio.com</a>
           </li>
           <li class="footer-list-item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="footer-list-emph link">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
