@@ -217,3 +217,30 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+
+/* ---------- TEST ---------- */
+/* ---------- TEST ---------- */
+
+.linkss {
+  display: inline-block;
+  padding: 92px 32px;
+
+  border-radius: 133px;
+  background-color: teal;
+  color: white;
+
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.pane {
+  display: none;
+  padding: 8px;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+.is-active {
+  display: block;
+}
