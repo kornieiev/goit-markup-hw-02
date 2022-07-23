@@ -18,70 +18,76 @@
       rel="stylesheet"
     />
   </head>
-  <body class="border container">
+  <body>
     <!---------- HEADER ---------->
-    <header class="header container">
-      <nav class="header-nav">
-        <a class="header-logo link" lang="en" href="./index.html">
-          Web<span class="header-logo-studio">Studio</span></a
-        >
-        <ul class="header-list list current">
-          <li class="header-item link">
-            <a href="./index.html" class="header-link link current">Студия</a>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-logo link" href="./index.html">
+            Web<span class="header-logo-studio">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item link">
+              <a href="./index.html" class="header-link link current">Студия</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            </li>
+            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-contact link">info@devstudio.com</a>
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Портфолио</a>
-          </li>
-          <li class="header-item"><a href="#" class="header-link link">Контакты</a></li>
+          <li><a href="tel:+380961111111" class="header-contact link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contacts list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header-contact link">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+380961111111" class="header-contact link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!---------- MAIN CONTENT ---------->
     <main class="main">
       <!----- Hero ----->
       <section class="hero">
-        <h1 class="hero-title" id="studio">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-btn">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title" id="studio">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-btn">Заказать услугу</button>
+        </div>
       </section>
       <!----- Features ----->
       <section class="features">
-        <h2 class="features-title visually-hidden">Особенности</h2>
-        <ul class="features-list list">
-          <li>
-            <h3 class="features-title-name">Внимание к деталям</h3>
-            <p class="features-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title-name">Пунктуальность</h3>
-            <p class="features-text">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title-name">Планирование</h3>
-            <p class="features-text">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title-name">Современные технологии</h3>
-            <p class="features-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="features-title visually-hidden">Особенности</h2>
+          <ul class="features-list list section">
+            <li>
+              <h3 class="features-title-name">Внимание к деталям</h3>
+              <p class="features-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title-name">Пунктуальность</h3>
+              <p class="features-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title-name">Планирование</h3>
+              <p class="features-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title-name">Современные технологии</h3>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!----- Portfolio ----->
-      <section class="portfolio">
+      <section class="portfolio section">
         <h2 class="portfolio-title">Чем мы занимаемся</h2>
         <ul class="portfolio-list list">
           <li class="portfolio-list-title">
