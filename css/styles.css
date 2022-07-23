@@ -11,6 +11,26 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', 'Raleway', sans-serif;
 }
+.html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  outline: 2px solid tomato;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto; */
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 1px solid tomato; */
+}
 .list {
   list-style: none; /*забирає крапку перед списком*/
 }
@@ -31,6 +51,7 @@ body {
 }
 .header-nav .link.current {
   color: var(--hover-text-color);
+  margin-left: auto;
 }
 
 /* ---------- ХЕДЕР ---------- */
@@ -46,6 +67,10 @@ body {
 .header-logo-studio {
   color: #000000;
 }
+.header {
+  border: 3px solid tomato;
+  box-sizing: border-box;
+}
 
 .header-link {
   font-weight: 500;
@@ -53,6 +78,8 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding: 8px;
+  display: block;
 }
 .header-link:hover,
 .header-link:focus {
@@ -64,8 +91,9 @@ body {
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: 0.02em;
-
+  padding: 8px;
   color: var(--second-text-color);
+  display: inline-block;
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -224,7 +252,7 @@ body {
 .linkss {
   display: inline-block;
   padding: 92px 32px;
-
+  border-color: red;
   border-radius: 133px;
   background-color: teal;
   color: white;
