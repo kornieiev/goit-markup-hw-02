@@ -50,9 +50,10 @@ img {
   display: block;
 }
 
-/* *{ 
-  outline: 2px solid tomato;
-}*/
+/* * {
+   outline: 2px solid tomato;
+} */
+
 .header {
   background-color: var(--);
   border-bottom: 1px solid #ececec;
@@ -392,8 +393,6 @@ div {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.main {
-  padding-bottom: 94px;
-}
+
 /* ---------- TEST ---------- */
 /* ---------- TEST ---------- */
